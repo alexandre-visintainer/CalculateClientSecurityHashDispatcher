@@ -1,0 +1,113 @@
+{
+  "name": "SmarthisTemplatePerformer",
+  "projectId": "37976e5e-dd3b-401c-8913-46131f8edae0",
+  "description": "Smarthis' Robotic Enterprise Framework version of the Performer structure.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Smarthis.UiPathLib": "[1.0.4]",
+    "UiPath.Excel.Activities": "[2.24.3]",
+    "UiPath.Mail.Activities": "[1.24.2]",
+    "UiPath.MicrosoftOffice365.Activities": "[2.7.24]",
+    "UiPath.System.Activities": "[24.10.6]",
+    "UiPath.UIAutomation.Activities": "[24.10.8]",
+    "UiPath.WebAPI.Activities": "[1.21.1]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.4.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\CalculateWorkingDay.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\GenerateExecutionLogsTextFile.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\LoginSap740Desktop.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\SendReportMailMicrosoftOffice365.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\SendReportMailSmtp.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\SendReportTicketSam.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\StopStreamingServer.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\StartStreamingServer.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\CloseOrKillAppGeneric.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\InitializeAppGeneric.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\SendReportMailSmtpBasedOnTxt.xaml"
+      },
+      {
+        "templateType": "Generic",
+        "fileName": ".templates\\SendMailSmtpAlertBasedOnTxt.xaml"
+      }
+    ],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "bd7ad8f7-57c1-49bc-b6ed-7aa40aa96f24",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": true,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
